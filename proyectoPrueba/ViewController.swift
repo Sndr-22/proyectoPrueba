@@ -12,6 +12,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("PRUEBA")
+        printHola()
+    }
+    
+    func printHola (){
+        print("HOLA")
     }
 
 
